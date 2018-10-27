@@ -1,0 +1,27 @@
+html,body,header,#intro {
+    height: 100%;
+}
+#intro {
+    background: url("../img/b878fad5d85f729b1ca521643b962988.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.top-nav-collapse {
+    background: whitesmoke;
+}
+
+
+#logo {
+    width: 80px;
+    height: 50px;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: whitesmoke;
+    }
+}
+
+.carousel-item {
+    height: 300px;
+}
